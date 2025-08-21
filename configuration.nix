@@ -76,6 +76,9 @@
   fastfetch
   bat
   git
+  spice
+  hello
+  xfce.thunar
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -89,6 +92,8 @@
   # List services that you want to enable:
 
   programs.zoxide.enable = true;
+
+  programs.thunar.enable = true;
 
   programs.bash.interactiveShellInit = ''
     "fastfetch"
