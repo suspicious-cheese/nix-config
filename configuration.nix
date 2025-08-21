@@ -74,6 +74,7 @@
   zoxide
   fzf
   fastfetch
+  bat
   git
   ];
 
@@ -86,9 +87,6 @@
   # };
 
   # List services that you want to enable:
-
-  services.spice-vdagentd.enable = true;
-  services.spice-autorandr.enable = true;
 
   programs.zoxide.enable = true;
 
