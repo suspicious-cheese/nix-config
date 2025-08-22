@@ -99,8 +99,13 @@
   programs.thunar.enable = true;
 
   programs.bash.interactiveShellInit = ''
-    "fastfetch"
+    fastfetch
     eval "$(zoxide init bash)"
+    
+    fzfbat() {
+      fzf --preview '[ -f {} ] && bat --style=numbers --color always {} --line-range :100'
+    }    
+
   '';
 
   # Enable the OpenSSH daemon.
