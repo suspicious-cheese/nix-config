@@ -51,11 +51,14 @@
     variant = "";
   };
 
+  users.groups.nixosdev = {};
+
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.nixos-vm = {
     isNormalUser = true;
     description = "nixos-vm";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "nixosdev" ];
     packages = with pkgs; [];
   };
 
