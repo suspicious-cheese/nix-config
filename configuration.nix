@@ -82,6 +82,8 @@
   spice
   hello
   xfce.thunar
+  code-cursor-fhs
+  w3m
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
