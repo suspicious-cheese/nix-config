@@ -5,7 +5,8 @@
   environment.systemPackages = with pkgs; [
 
   dmenu
-
+  i3-rounded
+  i3lock
   ];
 
   services.xserver.enable = true;
