@@ -82,7 +82,7 @@
   spice
   hello
   xfce.thunar
-  code-cursor-fhs
+  vscode
   w3m
   ];
 
