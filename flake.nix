@@ -20,10 +20,13 @@
         ];
       };
     
-      #hyprland = nixpkgs.lib.nixosSystem {
-      #  system = "aarch64";
-      #  modules = [ ./hyprland.nix ]
-      #};
+      hyprland = nixpkgs.lib.nixosSystem {
+        system = "aarch64-linux";
+        modules = [
+        ./configuration.nix
+        ./hyprland.nix
+        ];
+      };
 
 
     };
