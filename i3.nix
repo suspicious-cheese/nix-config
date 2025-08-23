@@ -4,9 +4,12 @@
 
   environment.systemPackages = with pkgs; [
 
-  jq
+  dmenu
 
   ];
+
+  services.xserver.enable = true;
+  services.xserver.windowManager.i3.enable = true;
 
 
 }

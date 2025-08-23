@@ -17,8 +17,8 @@
   networking.hostName = "nixos-vm"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
   
-  services.xserver.enable = true;
-  services.xserver.windowManager.i3.enable = true;
+  #services.xserver.enable = true;
+  #services.xserver.windowManager.i3.enable = true;
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
@@ -70,7 +70,7 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
-  dmenu
+  #dmenu
   firefox
   kdePackages.kate
   btop
