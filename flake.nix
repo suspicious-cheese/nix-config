@@ -14,7 +14,10 @@
     nixosConfigurations = {
       nixos-vm = nixpkgs.lib.nixosSystem {
         system = "aarch64-linux";
-        modules = [ ./configuration.nix ];
+        modules = [
+        ./configuration.nix
+        ./i3.nix
+        ];
       };
     
       #hyprland = nixpkgs.lib.nixosSystem {

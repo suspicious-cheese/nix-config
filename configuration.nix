@@ -80,7 +80,6 @@
   bat
   git
   spice
-  hello
   xfce.thunar
   vscode
   w3m
