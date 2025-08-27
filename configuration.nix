@@ -84,6 +84,8 @@
   xfce.thunar
   vscode
   w3m
+  ghostty
+  yazi
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -95,6 +97,8 @@
   # };
 
   # List services that you want to enable:
+
+  programs.yazi.enable = true;
 
   programs.zoxide.enable = true;
 
