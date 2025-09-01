@@ -146,6 +146,8 @@
     git
     yt-dlp
     vlc
+    home-assistant
+    micro
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
