@@ -32,7 +32,8 @@
         system = "x86_64-linux";
         modules = [
         ./host/home-server/configuration.nix
-        ./host/home-server/hardware-configuration.nix
+        #./host/home-server/hardware-configuration.nix
+        ./xfce.nix
         ];
       };
 
